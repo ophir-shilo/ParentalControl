@@ -1,0 +1,22 @@
+{% extends "children/base.html" %}
+{% block content %}
+    <h1>Browser History</h1>
+    {% for line in history %}
+        <tr>
+            {% if line.1 %}
+                <a href="{{ line.2 }}">{{ line.1 }}</a>
+                <br/>
+                <small class="text-muted">{{ line.2 }}</small>
+            {% else %}
+                <a href="{{ line.2 }}">{{ line.2 }}</a>
+            {% endif %}
+            <br/>
+            <span>{{ line.0 }}</span>
+            <hr/>
+        </tr>
+    {% endfor %}
+    {% if not history %}
+        <hr/>
+        <h2>No History Found.</h2>
+    {% endif %}
+{% endblock content %}

@@ -1,0 +1,28 @@
+{% extends "children/base.html" %}
+{% block content %}
+    <h1>Screen Records</h1>
+    <h6>
+        <a href="{% url 'child-records-years'%}">all</a>
+        {% if year %}
+            -> <a href="{% url 'child-records-months' year %}">year: {{ year }}</a>
+            {% if month %}
+                -> <a href="{% url 'child-records-days' year month %}">month: {{ month }}</a>
+                {% if day %}
+                    -> <a href="{% url 'child-records-hours' year month day %}">day: {{ day }}</a>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    </h6>
+    {% for year in years %}
+        <p><a href="{% url 'child-records-months' year.writeTime__year %}">{{ year.writeTime__year }}</a></p>
+    {% endfor %}
+    {% for month in months %}
+        <p><a href="{% url 'child-records-days' year month.writeTime__month %}">{{ month.writeTime__month }}</a></p>
+    {% endfor %}
+    {% for day in days %}
+        <p><a href="{% url 'child-records-hours' year month day.writeTime__day %}">{{ day.writeTime__day }}</a></p>
+    {% endfor %}
+    {% for hour in hours %}
+        <p><a href="{% url 'child-records' year month day hour.writeTime__hour %}">{{ hour.writeTime__hour }}:--</a></p>
+    {% endfor %}
+{% endblock content %}

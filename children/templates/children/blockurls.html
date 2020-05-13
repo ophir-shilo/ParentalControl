@@ -1,0 +1,21 @@
+{% extends "children/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <h1>Blocked URLs</h1>
+    <form action="{% url 'add' %}" method="POST" role="form">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            {{ form|crispy }}
+            <br/>
+            <span class="input-group-btn">
+                <button class="btn btn-outline-info" type="submit">block</button>
+            </span>
+        </fieldset>
+    </form>
+    <hr/>
+    <ul class="list-group t20">
+        {% for url in urls %}
+            <li>{{ url.url }}&ensp;<a href="{% url 'child-unblockurl' url.id %}">unblock</a></li>
+        {% endfor %}
+    </ul>
+{% endblock content %}

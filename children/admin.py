@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import BlockedUrl
 
-# Register your models here.
+class BlockedUrlAdmin(admin.ModelAdmin):
+    list_display= ('url', 'user')
+admin.site.register(BlockedUrl, BlockedUrlAdmin)

@@ -18,3 +18,5 @@ class HistoryFile(models.Model):
     history = models.FileField(default='history', upload_to='histories')
     writeTime = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
+
+

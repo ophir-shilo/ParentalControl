@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .forms import UserRegisterForm
+from django.contrib.auth.models import User
+from django.http import HttpResponse
 
 def register(request):
     if request.method == 'POST':
@@ -13,3 +15,10 @@ def register(request):
     else:
         form = UserRegisterForm()
     return render(request, 'users/register.html', {'form': form, "title": "registration"})
+
+def check(request):
+    users = User.objects.filter(username=request.GET.__getitem__('user'))
+    if len(users)>0:
+        return HttpResponse("ok")
+    else:
+        return HttpResponse("no")
