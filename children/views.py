@@ -111,6 +111,8 @@ def addUrl(request):
     form = BlockedUrlForm(request.POST)
     if form.is_valid():
         url = form.save()
+        url.user = request.user
+        url.save()
     return redirect('child-blockurl')
 
 

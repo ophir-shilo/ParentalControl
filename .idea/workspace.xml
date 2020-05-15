@@ -2,25 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="939ae083-98f5-41d2-a400-0e2a4fd87fae" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/children/templates/children/blockurls.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/children/templates/children/history.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/children/templates/children/keylogs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/children/templates/children/nav.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/children/templates/children/records.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/children/admin.py" afterPath="$PROJECT_DIR$/children/admin.py" />
-      <change beforePath="$PROJECT_DIR$/children/models.py" afterPath="$PROJECT_DIR$/children/models.py" />
-      <change beforePath="$PROJECT_DIR$/children/templates/children/base.html" afterPath="$PROJECT_DIR$/children/templates/children/base.html" />
-      <change beforePath="$PROJECT_DIR$/children/url.py" afterPath="$PROJECT_DIR$/children/url.py" />
+      <change beforePath="$PROJECT_DIR$/children/forms.py" afterPath="$PROJECT_DIR$/children/forms.py" />
       <change beforePath="$PROJECT_DIR$/children/views.py" afterPath="$PROJECT_DIR$/children/views.py" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/media/records/output.avi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/media/records/output_qfrIJF4.avi" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/parent/urls.py" afterPath="$PROJECT_DIR$/parent/urls.py" />
-      <change beforePath="$PROJECT_DIR$/send/models.py" afterPath="$PROJECT_DIR$/send/models.py" />
-      <change beforePath="$PROJECT_DIR$/send/url.py" afterPath="$PROJECT_DIR$/send/url.py" />
-      <change beforePath="$PROJECT_DIR$/send/views.py" afterPath="$PROJECT_DIR$/send/views.py" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" afterPath="$PROJECT_DIR$/users/views.py" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586456520_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586456580_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586456640_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586456720_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586457680_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586457860_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586458120_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586458220_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586458280_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586458700_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586458760_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586458920_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586459100_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586459280_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586459380_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586459440_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586459500_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586460440_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586460500_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586460560_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586460620_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586530600_newUser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586530740_newUser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586530780_newUser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586617060_newUser" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1586617200_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1587302340_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1587302400_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588002660_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588002780_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588326420_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588326480_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588710300_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588710360_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588711980_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588714520_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588714540_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588714560_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588714580_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588714600_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1588714620_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1589020860_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/history1589020920_ophirshilo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/newUser.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/histories/ophirshilo.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669160_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669170_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669180_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669190_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669200_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669210_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669220_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669230_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669240_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669760_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669770_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669910_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585669920_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1585846868_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270340_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270400_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270460_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270520_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270580_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270640_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586270700_newUser2.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586272566_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586272960_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586273160_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586273280_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350080_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350140_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350200_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350620_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350680_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350740_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350800_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350860_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350920_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586350980_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1586351040_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1587302340_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1587914880_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1587979320_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1587979620_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1587979680_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588326420_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588326660_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588710300_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714720_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714740_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714760_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714780_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714800_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714820_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588714840_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715100_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715120_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715140_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715160_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715180_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715200_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715220_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715240_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715260_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715280_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715480_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715500_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715520_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715540_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715900_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715920_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588715940_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716200_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716220_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716240_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716260_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716280_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716480_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716500_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716520_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716540_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1588716560_ophirshilo.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/records/output1589020860_ophirshilo.mp4" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,13 +139,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/children/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="118" selection-end-column="37" />
+            <state relative-caret-position="591">
+              <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/children/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/children/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +201,7 @@
         <entry file="file://$PROJECT_DIR$/children/url.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -77,11 +209,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/children/templates/children/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
-              <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
               <folding>
                 <element signature="e#1574#1580#0" expanded="true" />
                 <element signature="e#1580#1586#0" expanded="true" />
@@ -101,21 +233,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/send/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="1557">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keylogs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/children/templates/children/keylogs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,17 +246,7 @@
         <entry file="file://$PROJECT_DIR$/children/templates/children/history.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/children/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -143,8 +255,8 @@
       <file leaf-file-name="records.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/children/templates/children/records.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="378">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -193,7 +305,6 @@
         <option value="$PROJECT_DIR$/children/admin.py" />
         <option value="$PROJECT_DIR$/children/models.py" />
         <option value="$PROJECT_DIR$/send/views.py" />
-        <option value="$PROJECT_DIR$/children/forms.py" />
         <option value="$PROJECT_DIR$/children/templates/children/blockurls.html" />
         <option value="$PROJECT_DIR$/children/templates/children/pageBlocked.html" />
         <option value="$PROJECT_DIR$/children/templates/children/records.html" />
@@ -201,6 +312,7 @@
         <option value="$PROJECT_DIR$/send/url.py" />
         <option value="$PROJECT_DIR$/children/templates/children/base.html" />
         <option value="$PROJECT_DIR$/children/url.py" />
+        <option value="$PROJECT_DIR$/children/forms.py" />
         <option value="$PROJECT_DIR$/children/views.py" />
       </list>
     </option>
@@ -243,15 +355,7 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="children" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="children" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="children" type="462c0819:PsiDirectoryNode" />
+              <item name="send" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
@@ -305,7 +409,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.090428345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17503966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -601,7 +705,7 @@
         <state relative-caret-position="378">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="33" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -627,24 +731,8 @@
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/children/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/children/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,28 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/children/templates/children/records.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/send/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/children/url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -703,7 +773,7 @@
     <entry file="file://$PROJECT_DIR$/children/templates/children/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -718,20 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/children/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="118" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/children/templates/children/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
-          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
           <folding>
             <element signature="e#1574#1580#0" expanded="true" />
             <element signature="e#1580#1586#0" expanded="true" />
@@ -743,6 +803,54 @@
             <element signature="e#2003#2009#0" expanded="true" />
             <element signature="e#2117#2123#0" expanded="true" />
             <element signature="e#2123#2129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/children/templates/children/records.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/children/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/children/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/send/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1557">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/children/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
