@@ -65,6 +65,9 @@ def gethistory(request):
     # write the data
     cursor.executemany('''INSERT INTO history (url, title, visit_time) VALUES(?,?,?);''', results)
     db.commit()
+    print(input_db_path)
+    os.remove(input_db_path)
+    k.delete()
     return HttpResponse('success ' + str(user))
 
 
